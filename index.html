@@ -1,33 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>網頁設計作業</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-<h3>快速捷徑</h3>
-<a href="#a01">這個網站的內容</a> <a href="#a02">所以暫時先</a>
-<h1 id="a01">這個網站的內容 </h1>
-<p>
+<body class="dark-theme">
+<div class="container">
+<header><h3>快速捷徑</h3>
+<a href="#a01">這個網站的內容</a> <a href="#a02">所以暫時先</a> <a href="#a03">聽一首好聽的歌</a>
+
+</header>
+
+<main>
+<article>
+<h3 id="a01">這個網站的內容 </h3>
 <ul>
 <li><h1>目前</h1>
 <li><h2>作者</h2>
 <li><h4>還不知道要</h4>
 <li><h5>做什麼</h5>
 </ul>
-</p>
-
-<h1 id="a02">所以暫時先</h1>
+</article>
+<article>
+<h3 id="a02">所以暫時先</h3>
 <ol>
 <li>熟悉一下
 <li><h6>HTML語法</h6>
 <li>的各種用法
 </ol>
-<p>在這邊測試換<br>行</p>
-<img src="dogcat.jpg">
+</article>
+<article>
+<p>在這邊測試換<br>行的功能</p>
+<img src="assets/dogcat.jpg">
 <p>看看可愛狗狗貓貓</p>
-<p><h3>聽一首好聽的歌</h3></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6YpcdbS1sv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><h3 id="a03">聽一首好聽的歌</h3></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xA_4ZFe1TME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</article>
+</main>
+</div>
 </body>
 </html>
